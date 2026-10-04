@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.minenash.seamless_loading_screen.mixin",
+  "compatibilityLevel": "${java}",
+  "client": [
+    "ClientCommonPacketListenerImplMixin",
+    "ConnectScreenMixin",
+    "GameRendererMixin",
+    "MinecraftMixin",
+    "LevelLoadingScreenMixin",
+    "RealmsMainScreenMixin",
+    "ReportingContextMixin",
+    "ScreenMixin",
+    "custom_screenshots.ManageServerScreenMixin",
+    "custom_screenshots.ServerDataMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

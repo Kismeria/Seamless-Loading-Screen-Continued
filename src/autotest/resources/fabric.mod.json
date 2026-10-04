@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "sls_autotest",
+  "version": "1.0.0",
+  "name": "Seamless Loading Screen autotest",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.minenash.seamless_loading_screen.autotest.AutoTest"
+    ]
+  },
+  "depends": {
+    "seamless_loading_screen": "*"
+  }
+}
